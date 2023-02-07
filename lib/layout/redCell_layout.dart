@@ -20,7 +20,6 @@ class redCell_layout extends StatelessWidget {
           return Scaffold(
             bottomNavigationBar: BottomNavigationBar(
               type: BottomNavigationBarType.fixed,
-              //backgroundColor: Colors.black,
               unselectedItemColor:Colors.black,
               selectedItemColor: HexColor("#E24E59"),
               currentIndex: cubit.currentIndex,

@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:red_cell_app/layout/redCell_layout.dart';
-import 'modules/home/home_screen.dart';
+import 'package:red_cell_app/shared/bloc_observer.dart';
+
 
 
 void main() {
+   Bloc.observer = MyBlocObserver();
+
   runApp(const MyApp());
 }
 
@@ -31,4 +35,3 @@ class MyHomePage extends StatelessWidget {
     return redCell_layout();
   }
 }
-//fire base setup
