@@ -34,7 +34,6 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    return NewsScreen();
 
     return redCell_layout();
 

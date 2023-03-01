@@ -14,14 +14,16 @@ class NewsScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
+             const SizedBox(
+              height: 37,
+            ),
             Stack(
               children: [
                 Image(
-                    height: MediaQuery.of(context).size.height * .25,
-                    width: double.infinity,
+                  
                     image: AssetImage("assets/images/Group 1106.png")),
                 Padding(
-                  padding: EdgeInsets.all(30.0),
+                  padding: EdgeInsets.all(10.0),
                   child: Row(
                     children: [
                       const Text(

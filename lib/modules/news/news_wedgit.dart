@@ -32,15 +32,18 @@ class NewWidget extends StatelessWidget {
         children: [
           Row(
             children: [
-              Container(
-                width: 65,
-                height: 65,
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(40),
-                    image: DecorationImage(
-                      image: AssetImage("assets/images/profile.jpg"),
-                      fit: BoxFit.cover,
-                    )),
+              Padding(
+                padding: const EdgeInsets.only(top:15.0),
+                child: Container(
+                  width: 65,
+                  height: 65,
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(40),
+                      image: DecorationImage(
+                        image: AssetImage("assets/images/profile.jpg"),
+                        fit: BoxFit.cover,
+                      )),
+                ),
               ),
               SizedBox(
                 width: 10,

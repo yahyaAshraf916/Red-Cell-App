@@ -41,9 +41,13 @@ dependencies:
 
   share_plus: ^6.3.1
   url_launcher: ^6.1.8
-=======
-  flutter_bloc: ^8.1.2
 
+  flutter_bloc: ^8.1.2
+  
+  conditional_builder_null_safety: ^0.0.6
+  cloud_firestore: ^4.4.3
+  cached_network_image: ^3.2.3
+  fluttertoast: ^8.2.1
 
 dev_dependencies:
   flutter_test:
