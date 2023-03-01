@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:red_cell_app/layout/redCell_layout.dart';
-import 'package:red_cell_app/shared/bloc_observer.dart';
+//import 'package:red_cell_app/shared/bloc_observer.dart';
 
 
 
