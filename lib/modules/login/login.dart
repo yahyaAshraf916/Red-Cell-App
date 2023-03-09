@@ -27,7 +27,11 @@ class _loginState extends State<login> {
       );
       print(credential);
       Navigator.of(context).pushReplacement(MaterialPageRoute(
+
+        builder: (context) => HomeScreen(),
+
         builder: (context) => home_screen(),
+ 
       ));
       print("/////////////////////////////////////");
     } on FirebaseAuthException catch (e) {

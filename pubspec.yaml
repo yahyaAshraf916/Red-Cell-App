@@ -52,11 +52,22 @@ dependencies:
   url_launcher: ^6.1.8
 
   flutter_bloc: ^8.1.2
+
+  firebase_auth: ^4.2.5
+  cloud_firestore: ^4.3.1
+  firebase_core: ^2.4.1
+  page_indicator: ^0.4.1
+  shared_preferences: ^2.0.17
+  #google_sign_in: '^4.5.1'
+  #flutter_facebook_auth: '^3.5.0'
+  dropdown_textfield: ^1.0.8
+
   
   conditional_builder_null_safety: ^0.0.6
   cloud_firestore: ^4.4.3
   cached_network_image: ^3.2.3
   fluttertoast: ^8.2.1
+
 
 dev_dependencies:
   flutter_test:
