@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "256487119639",
+    "project_id": "red---cell",
+    "storage_bucket": "red---cell.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256487119639:android:e72aea7d532104f1907552",
+        "android_client_info": {
+          "package_name": "com.example.red_cell_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256487119639-p7o8t4a7imjto9rnmhh2093821nnofok.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.red_cell_app",
+            "certificate_hash": "f4cebe28d6b1189a9ff0b7d3a0f4946df3b915e3"
+          }
+        },
+        {
+          "client_id": "256487119639-pa2rf426l6dtgkhaintmdt5scga87f6n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXWwekt7XAz5GNVIDVgf93842i2ixiM4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256487119639-pa2rf426l6dtgkhaintmdt5scga87f6n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
